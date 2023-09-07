@@ -13,7 +13,7 @@ def endpoint(request):
 
     utc_time = timezone.now().strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    github_file = 'https://github.com/konlan21'
+    github_file = 'https://github.com/konlan21/stageoneproject/'
     github_repository = 'https://github.com/konlan21/stageoneproject/'
 
 
