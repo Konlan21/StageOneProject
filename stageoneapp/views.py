@@ -19,11 +19,11 @@ def endpoint(request):
 
     response = {
         'slack_name': slack_name,
-        'track': track,
         'current_day': current_day,
         'utc_time': utc_time,
+        'track': track,
         'github_file_url': github_file,
-        'github_repository_url': github_repository,
+        'github_repo_url': github_repository,
         'status_code': 200 
     }
 
